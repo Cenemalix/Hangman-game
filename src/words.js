@@ -1,5 +1,5 @@
 var ENGLISH_WORDS = [
-  "njihov", "bi", "o", "tamo", "misliti", "koji", "ljudi", "mogao", "drugi", "ovih",
+  "njihov", "tamo", "misliti", "koji", "ljudi", "mogao", "drugi", "ovih",
   "prvi", "stvar", "oni", "zena", "dijete", "tamo", "poslije", "trebao", "svijet", "skola",
   "jos", "tri", "drzava", "nikad", "postati", "stvarno", "porodica", "ostaviti", "dok",
   "sjajno", "grupa", "poceti", "gdje", "svaki", "pocetak", "mozda", "o", "mjesto", "ponovo",
