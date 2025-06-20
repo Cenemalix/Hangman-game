@@ -108,13 +108,13 @@ class Hangman extends Component {
     const isWinner = this.guessedWord().join("") === this.state.answer;
     return (
       <div className='Hangman'>
-        <h1>Hangman</h1>
+        <h1>Vješalica</h1>
 
         <img src={this.props.images[this.state.nWrong]} 
         alt={`${this.state.nWrong} wrong guesses of ${this.props.maxWrong}`}
         />
 
-        <p className="guess-message" >Guesses left {this.state.nWrong} / {this.props.maxWrong} </p>
+        <p className="guess-message" >Preostalo pokušaja: {this.state.nWrong} / {this.props.maxWrong} </p>
 
         <p className='Hangman-word'>
           {this.isGameOver() ? this.state.answer : this.guessedWord()}</p>
